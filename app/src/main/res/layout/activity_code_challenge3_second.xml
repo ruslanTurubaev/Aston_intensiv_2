@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lesson_2_2.CodeChallenge3SecondActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginHorizontal="@dimen/margin_start_xlarge">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_rice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rice_item"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_cheese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cheese_item"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_beef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/beef_item"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_eggs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eggs_item"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_milk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/milk_item"/>
+
+</LinearLayout>

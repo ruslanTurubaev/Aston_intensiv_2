@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginHorizontal="@dimen/margin_start_xlarge">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_code_challenge_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/code_challenge_1"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_homework1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/homework_1"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_homework2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/homework_2"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_homework3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/homework_3"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_code_challenge_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/code_challenge_2"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_homework4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/homework_4"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_code_challenge_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/code_challenge_3"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_homework5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/homework_5"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_code_challenge_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/code_challenge_4"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_homework6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/homework_6"/>
+
+</LinearLayout>

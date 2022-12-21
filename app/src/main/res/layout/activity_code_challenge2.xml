@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lesson_2_1.CodeChallenge2Activity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="@dimen/margin_start_xlarge">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_first_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_one_button"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_second_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_two_button"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_third_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_three_button"/>
+
+</LinearLayout>

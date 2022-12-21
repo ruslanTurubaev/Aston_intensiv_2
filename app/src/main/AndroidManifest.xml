@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Aston_intensiv_2"
+        tools:targetApi="31">
+        <activity
+            android:name=".lesson_2_3.Homework6Activity"
+            android:label="@string/homework_6"
+            android:parentActivityName=".MainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aston_intensiv_2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".lesson_2_3.CodeChallenge4SecondActivity"
+            android:exported="false"
+            android:label="@string/code_challenge_4"
+            android:parentActivityName=".lesson_2_3.CodeChallenge4Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aston_intensiv_2.lesson_2_3.CodeChallenge4Activity" />
+        </activity>
+        <activity
+            android:name=".lesson_2_3.CodeChallenge4Activity"
+            android:exported="false"
+            android:label="@string/code_challenge_4"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aston_intensiv_2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".lesson_2_2.Homework5Activity"
+            android:exported="false"
+            android:label="@string/homework_5"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aston_intensiv_2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".lesson_2_2.CodeChallenge3SecondActivity"
+            android:exported="false"
+            android:label="@string/code_challenge_3"
+            android:parentActivityName=".lesson_2_2.CodeChallenge3Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aston_intensiv_2.lesson_2_2.CodeChallenge3Activity" />
+        </activity>
+        <activity
+            android:name=".lesson_2_2.CodeChallenge3Activity"
+            android:exported="false"
+            android:label="@string/code_challenge_3"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aston_intensiv_2.lesson_2_1.Homework4Activity" />
+        </activity>
+        <activity
+            android:name=".lesson_2_1.Homework4SecondActivity"
+            android:exported="false"
+            android:label="@string/homework_4"
+            android:parentActivityName=".lesson_2_1.Homework4Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aston_intensiv_2.lesson_2_1.Homework4Activity" />
+        </activity>
+        <activity
+            android:name=".lesson_2_1.Homework4Activity"
+            android:exported="false"
+            android:label="@string/homework_4"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aston_intensiv_2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".lesson_2_1.CodeChallenge2SecondActivity"
+            android:exported="false"
+            android:label="@string/code_challenge_2"
+            android:parentActivityName=".lesson_2_1.CodeChallenge2Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aston_intensiv_2.lesson_2_1.CodeChallenge2Activity" />
+        </activity>
+        <activity
+            android:name=".lesson_2_1.CodeChallenge2Activity"
+            android:exported="false"
+            android:label="@string/code_challenge_2"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aston_intensiv_2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".lesson_1_3.Homework3Activity"
+            android:exported="false"
+            android:label="@string/homework_3"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aston_intensiv_2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".lesson_1_2.Homework2Activity"
+            android:exported="false"
+            android:label="@string/homework_2"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aston_intensiv_2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".lesson_1_1.Homework1Activity"
+            android:exported="false"
+            android:label="@string/homework_1"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aston_intensiv_2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".lesson_1_1.CodeChallenge1Activity"
+            android:exported="false"
+            android:label="@string/code_challenge_1"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aston_intensiv_2.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

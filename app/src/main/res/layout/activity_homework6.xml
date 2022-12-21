@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lesson_2_3.Homework6Activity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_uri"
+        android:hint="@string/web_link"
+        android:autofillHints="no"
+        android:inputType="textUri" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_open_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_uri"
+        android:layout_marginBottom="@dimen/margin_bottom"/>
+
+    <EditText
+        android:id="@+id/edit_text_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_loc"
+        android:hint="@string/location"
+        android:autofillHints="no"
+        android:inputType="text"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_open_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_loc"
+        android:layout_marginBottom="@dimen/margin_bottom"/>
+
+    <EditText
+        android:id="@+id/edit_text_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edittext_share"
+        android:hint="@string/any_text"
+        android:autofillHints="no"
+        android:inputType="text"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_share_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_share"
+        android:layout_marginBottom="@dimen/margin_bottom"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_open_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_open_camera"/>
+
+</LinearLayout>
